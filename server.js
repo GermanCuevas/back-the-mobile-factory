@@ -9,7 +9,7 @@ const cookiesParser = require("cookie-parser");
 app.use(cookiesParser());
 app.use(
   cors({
-    origin: "https://the-mobile-factory-1-5284-cnc3grc2m-germancuevas.vercel.app/",
+    origin: "https://the-mobile-factory-1-5284-cnc3grc2m-germancuevas.vercel.app",
     credentials: true,
   })
 );
